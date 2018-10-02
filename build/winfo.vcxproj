@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{92AF0B53-73B1-683F-D17D-E9997636CC62}</ProjectGuid>
+    <ProjectGuid>{9BFDD6D9-DD3E-DD96-A85E-D7EC752BC788}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>winfo</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -47,7 +47,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\eivindh\.node-gyp\8.11.4\include\node;C:\Users\eivindh\.node-gyp\8.11.4\src;C:\Users\eivindh\.node-gyp\8.11.4\deps\openssl\config;C:\Users\eivindh\.node-gyp\8.11.4\deps\openssl\openssl\include;C:\Users\eivindh\.node-gyp\8.11.4\deps\uv\include;C:\Users\eivindh\.node-gyp\8.11.4\deps\zlib;C:\Users\eivindh\.node-gyp\8.11.4\deps\v8\include;C:\Users\eivindh\wrect\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\eivindh\.node-gyp\8.11.4\include\node;C:\Users\eivindh\.node-gyp\8.11.4\src;C:\Users\eivindh\.node-gyp\8.11.4\deps\openssl\config;C:\Users\eivindh\.node-gyp\8.11.4\deps\openssl\openssl\include;C:\Users\eivindh\.node-gyp\8.11.4\deps\uv\include;C:\Users\eivindh\.node-gyp\8.11.4\deps\zlib;C:\Users\eivindh\.node-gyp\8.11.4\deps\v8\include;C:\Users\eivindh\winfo\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj /MP %(AdditionalOptions)</AdditionalOptions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck>true</BufferSecurityCheck>
@@ -82,13 +82,13 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\eivindh\.node-gyp\8.11.4\include\node;C:\Users\eivindh\.node-gyp\8.11.4\src;C:\Users\eivindh\.node-gyp\8.11.4\deps\openssl\config;C:\Users\eivindh\.node-gyp\8.11.4\deps\openssl\openssl\include;C:\Users\eivindh\.node-gyp\8.11.4\deps\uv\include;C:\Users\eivindh\.node-gyp\8.11.4\deps\zlib;C:\Users\eivindh\.node-gyp\8.11.4\deps\v8\include;C:\Users\eivindh\wrect\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\eivindh\.node-gyp\8.11.4\include\node;C:\Users\eivindh\.node-gyp\8.11.4\src;C:\Users\eivindh\.node-gyp\8.11.4\deps\openssl\config;C:\Users\eivindh\.node-gyp\8.11.4\deps\openssl\openssl\include;C:\Users\eivindh\.node-gyp\8.11.4\deps\uv\include;C:\Users\eivindh\.node-gyp\8.11.4\deps\zlib;C:\Users\eivindh\.node-gyp\8.11.4\deps\v8\include;C:\Users\eivindh\winfo\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=winfo;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;NAPI_DISABLE_CPP_EXCEPTIONS;BUILDING_NODE_EXTENSION;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\eivindh\.node-gyp\8.11.4\include\node;C:\Users\eivindh\.node-gyp\8.11.4\src;C:\Users\eivindh\.node-gyp\8.11.4\deps\openssl\config;C:\Users\eivindh\.node-gyp\8.11.4\deps\openssl\openssl\include;C:\Users\eivindh\.node-gyp\8.11.4\deps\uv\include;C:\Users\eivindh\.node-gyp\8.11.4\deps\zlib;C:\Users\eivindh\.node-gyp\8.11.4\deps\v8\include;C:\Users\eivindh\wrect\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\eivindh\.node-gyp\8.11.4\include\node;C:\Users\eivindh\.node-gyp\8.11.4\src;C:\Users\eivindh\.node-gyp\8.11.4\deps\openssl\config;C:\Users\eivindh\.node-gyp\8.11.4\deps\openssl\openssl\include;C:\Users\eivindh\.node-gyp\8.11.4\deps\uv\include;C:\Users\eivindh\.node-gyp\8.11.4\deps\zlib;C:\Users\eivindh\.node-gyp\8.11.4\deps\v8\include;C:\Users\eivindh\winfo\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <CompileAsWinRT>false</CompileAsWinRT>
@@ -133,7 +133,7 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\eivindh\.node-gyp\8.11.4\include\node;C:\Users\eivindh\.node-gyp\8.11.4\src;C:\Users\eivindh\.node-gyp\8.11.4\deps\openssl\config;C:\Users\eivindh\.node-gyp\8.11.4\deps\openssl\openssl\include;C:\Users\eivindh\.node-gyp\8.11.4\deps\uv\include;C:\Users\eivindh\.node-gyp\8.11.4\deps\zlib;C:\Users\eivindh\.node-gyp\8.11.4\deps\v8\include;C:\Users\eivindh\wrect\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\eivindh\.node-gyp\8.11.4\include\node;C:\Users\eivindh\.node-gyp\8.11.4\src;C:\Users\eivindh\.node-gyp\8.11.4\deps\openssl\config;C:\Users\eivindh\.node-gyp\8.11.4\deps\openssl\openssl\include;C:\Users\eivindh\.node-gyp\8.11.4\deps\uv\include;C:\Users\eivindh\.node-gyp\8.11.4\deps\zlib;C:\Users\eivindh\.node-gyp\8.11.4\deps\v8\include;C:\Users\eivindh\winfo\node_modules\node-addon-api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=winfo;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;NAPI_DISABLE_CPP_EXCEPTIONS;BUILDING_NODE_EXTENSION;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
@@ -147,7 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\node_modules\node-addon-api\src\nothing.vcxproj">
-      <Project>{FCA26884-BABE-C42B-D878-E3172152AC23}</Project>
+      <Project>{1C9BDD4B-E648-3B7A-7B21-1D03515A0B19}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
